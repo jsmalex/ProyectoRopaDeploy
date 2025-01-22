@@ -1,8 +1,8 @@
-numpy>=1.26.0,<2.1.0
-scikit-learn==1.2.2
-tensorflow==2.18.0
-keras==3.6.0
-uvicorn==0.21.1
-fastapi==0.95.0
-pillow==9.5.0
-matplotlib==3.7.2
+numpy
+scikit-learn
+tensorflow
+keras
+uvicorn
+fastapi
+pillow
+matplotlib

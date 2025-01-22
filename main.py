@@ -6,6 +6,9 @@ from sklearn.metrics.pairwise import cosine_similarity
 import io
 import json
 from typing import List
+import os
+os.environ["CUDA_VISIBLE_DEVICES"] = "-1"
+
 
 # Cargar el modelo para generar embeddings
 model_without_top = tf.keras.models.load_model('Modelo_final_embenddings_ropa.keras')

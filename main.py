@@ -1,3 +1,5 @@
+import os
+os.environ["CUDA_VISIBLE_DEVICES"] = "-1"
 import numpy as np
 import tensorflow as tf
 from tensorflow.keras.preprocessing import image
@@ -6,8 +8,7 @@ from sklearn.metrics.pairwise import cosine_similarity
 import io
 import json
 from typing import List
-import os
-os.environ["CUDA_VISIBLE_DEVICES"] = "-1"
+
 
 
 # Cargar el modelo para generar embeddings
